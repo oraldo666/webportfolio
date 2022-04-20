@@ -22,7 +22,7 @@ function HomePagePresentation() {
       <h1 className="forth-text">
         <span className="span-text">DevOps: - </span> I have good knowledge of
         integrations with Git (GitLab, GitHub with pull requests), Heroku Cloud
-        Platform, and familiar with some AWS technologies.
+        Platform, and familiar with some AWS technologies..
       </h1>
     </div>
   );
