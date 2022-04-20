@@ -1,0 +1,20 @@
+.right-arrow-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  opacity: 0.1;
+}
+.right-arrow-container:hover {
+  opacity: 1;
+}
+
+.right-arrow-container a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.right-arrow {
+  height: 100rem;
+}

@@ -1,0 +1,25 @@
+.main-style {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.first-row {
+  position: absolute;
+}
+
+.second-row {
+  position: absolute;
+  top: 40px;
+}
+
+.third-row {
+  position: absolute;
+  top: 80px;
+}
+
+.forth-row {
+  position: absolute;
+  top: 120px;
+}

@@ -1,0 +1,56 @@
+.line-container {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  background-color: #8af3ff;
+  margin: 20px 0 20px 0;
+  border-radius: 10px;
+  animation-name: line-move;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .line-container {
+    width: 50px;
+    height: 30px;
+    animation-name: line-move-sm;
+  }
+}
+
+@keyframes line-move-sm {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: calc(100% - 30px);
+    background-color: red;
+    width: 30px;
+    border-radius: 50px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes line-move {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: calc(100% - 60px);
+    background-color: red;
+    border-radius: 50px;
+    width: 60px;
+  }
+
+  100% {
+    left: 0;
+  }
+}

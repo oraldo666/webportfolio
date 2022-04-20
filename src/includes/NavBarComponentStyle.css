@@ -1,0 +1,122 @@
+.menu-container {
+  position: relative;
+  min-height: 10vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.toggler-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.toggler-button:hover {
+  cursor: pointer;
+}
+
+.desktop-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktop-menu h1 {
+  margin: 13px;
+}
+
+.desktop-menu-items {
+  margin-right: 100px;
+  position: absolute;
+  right: 0px;
+}
+
+.desktop-menu-items-hide {
+  right: -900px;
+  transition: 1000ms;
+}
+
+.desktop-menu-items-show {
+  right: 0;
+  transition: 1000ms;
+}
+
+.desktop-menu-items ul {
+  display: flex;
+  margin: 20px;
+  font-size: 24px;
+}
+
+.desktop-menu-items ul a {
+  margin-right: 7rem;
+  text-decoration: none;
+  color: white;
+}
+
+.drawer-container {
+  position: fixed;
+  right: 0;
+  width: 15rem;
+  height: 100vh;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  z-index: 10;
+  background: radial-gradient(#454545, #2f323b);
+}
+
+.drawer-container ul a {
+  text-decoration: none;
+  color: white;
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.drawer-container a {
+  text-decoration: none;
+  color: white;
+  display: grid;
+}
+.icon-style {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hide-drawer {
+  right: -15rem;
+  transition: 1000ms;
+}
+
+.show-drawer {
+  right: 0;
+  transition: 1000ms;
+}
+
+@media only screen and (max-width: 1200px) {
+  .desktop-menu-items ul a {
+    margin-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .desktop-menu-items ul a {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .desktop-menu-items ul a {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hide-desktop-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .drawer-container {
+    display: none;
+  }
+}

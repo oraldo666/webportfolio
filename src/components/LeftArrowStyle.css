@@ -1,0 +1,17 @@
+.left-arrow-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  opacity: 0.1;
+}
+
+.left-arrow-container:hover {
+  opacity: 1;
+}
+
+.left-arrow-container a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}

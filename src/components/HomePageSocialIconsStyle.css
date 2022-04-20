@@ -1,0 +1,14 @@
+.social-icons-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: grid;
+  grid-template-columns: 1;
+  gap: 10px;
+}
+.social-icons-container h1 {
+  font-size: 14px;
+}
+
+
