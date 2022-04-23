@@ -25,7 +25,9 @@ function NavBarComponent() {
         </div>
 
         <div className="desktop-menu">
-          <h1>Oraldo's Web</h1>
+          <Link to="/">
+            <h1>Oraldo's Web</h1>
+          </Link>
 
           <div
             className={

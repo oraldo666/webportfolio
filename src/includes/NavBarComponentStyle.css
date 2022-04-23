@@ -23,6 +23,10 @@
 .desktop-menu h1 {
   margin: 13px;
 }
+.desktop-menu a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .desktop-menu-items {
   margin-right: 100px;
@@ -60,7 +64,7 @@
   text-align: center;
   font-size: 30px;
   overflow: hidden;
-  z-index: 10;
+  z-index: +15;
   background: radial-gradient(#454545, #2f323b);
 }
 
