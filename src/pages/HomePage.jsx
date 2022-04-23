@@ -12,10 +12,7 @@ function HomePage() {
 
   const goForward = () => {
     setGoRight(true);
-    console.log("Hallow");
-    console.log(goRight);
   };
-
 
   return (
     <div onClick={goForward}>
